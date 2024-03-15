@@ -7,9 +7,9 @@ const token = process.env.SANITY_TOKEN;
 export const client = createClient({
     apiVersion: '2023-05-03',
     dataset: 'production',
-    projectId: 'projectid',  // 유출위험
+    projectId: projectid,  // 유출위험
     useCdn: false,
-    token: 'token',
+    token: token,
 });
 
 const builder = ImageUrlBuilder(client);
