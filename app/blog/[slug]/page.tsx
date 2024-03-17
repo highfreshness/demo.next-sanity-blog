@@ -25,7 +25,7 @@ export default async function BlogArticle({params}: {params: {slug:string}}) {
     return (
         <div className="mt-8">
             <h1>
-                <span className="block text-base text-center text-primary font-semibold tracking-wide uppercase">Jan Marshal - Blog</span>
+                <span className="block text-base text-center text-primary font-semibold tracking-wide uppercase">Highfreshness - Blog</span>
                 <span className="mt-2 block text-3xl text-center leading-8 font-bold tracking-tight sm:text-4xl">{data.title}</span>
             </h1>
 
