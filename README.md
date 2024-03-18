@@ -1,36 +1,12 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# NextJS + Sanity Blog
 
-## Getting Started
+## 개요
+https://youtu.be/Lydgf-Hvla4?si=9iivnlBZnrPy0Ch7 를 참고해 만든 NextJS 블로그 프로젝트로
+블로그의 틀은 NextJS로 생성하고 글에 대한 관리는 Sanity 라는 클라우드 CMS 를 이용해 진행
 
-First, run the development server:
+## 문제점
+1. 구성과 디자인은 좋았지만 기본 에디터가 마크다운 문법의 일부만 적용되어 에디터에서 마크다운을 바로 적용시켜 확인이 불가능(이미 적용된 마크다운 글을 가져다 쓰면 적용되어 보임)했으며 코드블록을 사용할 수 없었다.
+2. 유튜브에서는 slug에 대해 자동생성이 가능하다고 했지만 URL에 적용되는 slug의 경우 한글을 넣을 수 없기 때문에 영문 제목에 한정된 slug 생성 방식이 었다.(날짜를 베이스로 한 slug 생성 방법으로 해결은 했었다.)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## 결론
+뛰어난 디자인, 무료 요금제로 이용가능한 블로그 템플릿이었지만 마크다운이 기본에 포함되어 있지 않아 당장은 사용하기 힘들 것으로 보인다.(공식 문서에 방법은 있으나 아직 적용은 하지 못해본 상태)
